@@ -9,19 +9,19 @@
     
 }
 .btn {
-    padding: 12px 35px;
+    padding: 12px 15px;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     border-radius: 0%;
-    transition:all ease-in-out .5s;
+    transition: all ease-in-out .4s;
 }
 .btn-brand {
-    background-color:blue;
+    background-color: blueviolet;
     color:aqua;
 }
 .btn-brand:hover {
-    border: 2px solid red;
-    color: violet;
+    border: 2px solid gold;
+    color: black;
 }
 .navbar .nav-link {
     font-family: 'Times New Roman', Times, serif;
@@ -37,36 +37,38 @@
     background-attachment: fixed;
     background-position: center;
 }
+
 h1 {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 75px;
-    color: black;
+    color: rgb(2, 40, 14);
 }
+
 #banner p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(200, 89, 248, 0.884);
+    color: rgba(7, 119, 61, 0.884);
 }
 
 .card-img-top{
-    width: 35% !important;
+    width: 35%;
 }
 
 .card{
     padding: 20px;
-    border: 3px solid rgb(88, 24, 227) !important;
+    border: 3px solid rgb(167, 210, 26);
     transition: all ease-in .4s;
 }
 
 .card:hover{
-    border: 3px solid rgb(239, 32, 250) !important;
+    border: 3px solid rgb(75, 225, 135);
     transform: scale(1.1);
-    background-color: rgb(159, 10, 182);
-    border-color: rgb(249, 32, 224);
+    background-color: rgb(90, 228, 141);
+    border-color: rgb(75, 208, 111);
 }
 .card:hover .card-title,
 .card-hover .card-text{
-    color: rgb(243, 28, 222);
+    color: rgb(142, 240, 164);
 }
 
 section{
@@ -78,3 +80,126 @@ section{
     color: rgb(130, 7, 146);
     margin-bottom: 30px;
 }
+
+#about {
+    background-color: rgb(142, 190, 140);
+}
+#about img {
+    border: 5px solid skyblue;
+    height: 90%;
+    width: 400px;
+}
+#about .btn-brand {
+    background-color: rgb(117, 231, 168);
+    color: mediumspringgreen;
+}
+#about h2{
+    color: azure;
+    font-size: 45px;
+}
+.wew{
+    width: 65px;
+}
+.testimonials {
+    border: 3px solid rgb(103, 238, 135);
+    padding: 20px;
+    margin-top: 20px;
+}
+.testimonials:hover {
+    transform: scale(1.1);
+}
+#reviews h2 {
+    font-size: 55px;
+}
+#faq {
+    background-color: rgb(181, 203, 196);
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.accordion-button {
+    background-color: #f8f8f8;
+    border: none;
+    border-bottom: 1px solid #097009;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body {
+    border-left: 3px solid rgb(236, 26, 26);
+    padding: 10px 25px;
+    margin-left: 0;
+    background-color: #29f029;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #088d15;
+    color: #fff;
+}
+.accordion-button:hover {
+    background-color: #66f17d;
+    color: #FFF;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(6, 20, 22);
+}
+#footer ul.list-unstyled li a {
+    color: #ffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a{
+    color: #D2691E;
+}
+#footer button {
+    border-radius: 1px;
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+    #banner h1 {
+        font-size: 40px;
+    }
+    #sugpon h2 {
+        font-size: 40px;
+    }
+    #sugpon .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section{
+        padding: 60px 20px;
+    }
+    #footer {
+        padding: 60px 20px;
+    }
+    #about img{
+        height: 350px;  
+        width: 350px;
+        margin: 0 auto;
+        object-fit: cover;
+      }  
+      #services .card{
+          margin-top: 20px;   
+         
+      }
+      section{
+          padding: 60px 20px;
+      }
+      
+}
+
